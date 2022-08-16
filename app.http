@@ -1,0 +1,36 @@
+
+
+POST http://localhost:5000/user/signup
+Content-Type: application/json
+
+{
+    "username":"JoeN",
+     "email":"jonathanndambuki16@gmail.com",
+    "password":"87654321"
+}
+
+###
+POST http://localhost:5000/user/login
+Content-Type: application/json
+
+{
+    "email":"jonathanndambuki16@gmail.com",
+    "password":"87654321"
+}
+
+
+###
+GET http://localhost:5000/user/admin
+###
+
+GET http://localhost:5000/user/check
+token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2Vyc0lkIjoiNmJkM2QwNTMtMjkzZS00MWVlLTkxMGUtYTIxZjYzZWY4MzFkIiwidXNlcm5hbWUiOiJKb2VOIiwiZW1haWwiOiJqb25hdGhhbm5kYW1idWtpMTZAZ21haWwuY29tIiwicm9sZSI6InVzZXIiLCJpc3NlbnQiOiIxIiwiaWF0IjoxNjYwNTY3NDEwLCJleHAiOjE2NjA1NzEwMTB9.nMOL84UtU8YFkLJfE3Vs6iANKjXJG2CCCBZFsB6vdC4
+  
+###
+
+GET http://localhost:5000/project/mercychepngenoh74@gmail.com
+
+
+
+
+###

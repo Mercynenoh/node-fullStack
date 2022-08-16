@@ -1,0 +1,12 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.posts{
+    display: flex;
+}
+#user{
+    text-align: center;
+}
